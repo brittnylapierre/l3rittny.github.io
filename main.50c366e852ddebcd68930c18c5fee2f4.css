@@ -10500,7 +10500,37 @@ body {
   color: white !important; }
 
 .site-header {
-  background: #BD80FF;
+  background: black;
   color: white; }
+
+.top-box {
+  padding: 100px 0 100px calc(50vw - 500px); }
+  .top-box .page-headline {
+    width: 1000px; }
+  .top-box .p {
+    width: 1000px;
+    max-width: 1000px;
+    font-size: 18px;
+    color: #908f8f; }
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 50px; }
+
+.duality-box {
+  flex-direction: row; }
+  .duality-box .duality-section {
+    width: 50%;
+    margin: 0;
+    padding: 50px;
+    min-height: 500px; }
+    .duality-box .duality-section .duality-header {
+      font-size: 38px; }
+  .duality-box #development {
+    background: #3F10CC; }
+  .duality-box #design {
+    background: #0B66C6; }
 .App{text-align:center}.App-logo{-webkit-animation:App-logo-spin infinite 20s linear;animation:App-logo-spin infinite 20s linear;height:80px}.App-header{background-color:#222;height:150px;padding:20px;color:#fff}.App-title{font-size:1.5em}.App-intro{font-size:large}@-webkit-keyframes App-logo-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@keyframes App-logo-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}
-/*# sourceMappingURL=main.5a43f813e26eee56c8888dd3c771ac6b.css.map*/
+/*# sourceMappingURL=main.50c366e852ddebcd68930c18c5fee2f4.css.map*/
