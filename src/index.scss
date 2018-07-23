@@ -1,0 +1,104 @@
+
+$grey : rgb(22, 22, 22);
+$primary : #BD80FF;
+$secondary-1 : #8a86e8;
+$secondary-2 : #8cb9ff;
+
+// As hex codes */
+
+$color-primary-0: #2F0A9D;	// Main Primary color */
+$color-primary-1: #5B36C8;
+$color-primary-2: #3F10CC;
+$color-primary-3: #25077F;
+$color-primary-4: #1B0460;
+
+$color-secondary-1-0: #900095;	// Main Secondary color (1) */
+$color-secondary-1-1: #BD23C2;
+$color-secondary-1-2: #BF01C6;
+$color-secondary-1-3: #750079;
+$color-secondary-1-4: #58005B;
+
+$color-secondary-2-0: #064C95;	// Main Secondary color (2) */
+$color-secondary-2-1: #2E77C2;
+$color-secondary-2-2: #0B66C6;
+$color-secondary-2-3: #043D78;
+$color-secondary-2-4: #022E5B;
+
+
+
+// As RGBa codes */
+
+$rgba-primary-0: rgba( 47, 10,157,1);	// Main Primary color */
+$rgba-primary-1: rgba( 91, 54,200,1);
+$rgba-primary-2: rgba( 63, 16,204,1);
+$rgba-primary-3: rgba( 37,  7,127,1);
+$rgba-primary-4: rgba( 27,  4, 96,1);
+
+$rgba-secondary-1-0: rgba(144,  0,149,1);	// Main Secondary color (1) */
+$rgba-secondary-1-1: rgba(189, 35,194,1);
+$rgba-secondary-1-2: rgba(191,  1,198,1);
+$rgba-secondary-1-3: rgba(117,  0,121,1);
+$rgba-secondary-1-4: rgba( 88,  0, 91,1);
+
+$rgba-secondary-2-0: rgba(  6, 76,149,1);	// Main Secondary color (2) */
+$rgba-secondary-2-1: rgba( 46,119,194,1);
+$rgba-secondary-2-2: rgba( 11,102,198,1);
+$rgba-secondary-2-3: rgba(  4, 61,120,1);
+$rgba-secondary-2-4: rgba(  2, 46, 91,1);
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: black;
+}
+
+.grommet { 
+  background: black !important;
+  color: white !important;
+}
+
+
+.site-header {
+  background: black;
+  color:white;
+}
+
+.top-box {
+  padding: 100px 0 100px calc(50vw - 500px);
+  .page-headline {
+    width:1000px;
+  }
+  .p {
+    width:1000px;
+    max-width:1000px;    
+    font-size: 18px;
+    color: #908f8f;
+  }
+}
+
+.profile-image {
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+  margin-right: 50px;
+}
+
+.duality-box {
+  flex-direction: row;
+  .duality-section {
+    width:50%;
+    margin:0;
+    padding:50px;
+    min-height:500px;
+    .duality-header {    
+      font-size: 38px;
+    }
+  }
+  #development {
+    background: $color-primary-2;
+  }
+  #design{
+    background: $color-secondary-2-2;
+  }
+}
