@@ -86,19 +86,26 @@ body {
 
 .duality-box {
   flex-direction: row;
-  .duality-section {
+  .scroll-wrap {
     width:50%;
     margin:0;
     padding:50px;
-    min-height:500px;
+    height:500px;
     .duality-header {    
       font-size: 38px;
     }
   }
-  #development {
+  .development {
     background: $color-primary-2;
+    .custom-scroll .inner-handle {
+      background-color: $secondary-1;
+    }
   }
-  #design{
+  .design{
     background: $color-secondary-2-2;
   }
+}
+
+.filler {
+  height : 600px;
 }

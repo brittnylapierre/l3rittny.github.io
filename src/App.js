@@ -14,7 +14,7 @@ import Headline from 'grommet/components/Headline';
 import Section from 'grommet/components/Section';
 
 import Paragraph from 'grommet/components/Paragraph';
-
+import CustomScroll from 'react-custom-scroll';
 
 class Main extends Component {
   render() {
@@ -39,16 +39,26 @@ learning languages, and seeking out memorable experiences.
           </Paragraph>
         </Box>
         <Box className="duality-box">
-          <Section className="duality-section" id="development">
-            <Headline className="duality-header">
-              Development
-            </Headline>
-          </Section>
-          <Section className="duality-section" id="design">
-            <Headline className="duality-header">
-              Design + Art
-            </Headline>
-          </Section>
+          <div class="scroll-wrap development">
+            <CustomScroll heightRelativeToParent="100%">
+              <Section className="duality-section development">
+                  <Headline className="duality-header">
+                    Development
+                  </Headline>
+                  <div class="filler"></div>
+              </Section>
+            </CustomScroll>
+          </div>
+          <div class="scroll-wrap design">
+            <CustomScroll heightRelativeToParent="100%">
+              <Section className="duality-section design">
+                  <Headline className="duality-header">
+                    Design + Art
+                  </Headline>
+                  <div class="filler"></div>
+              </Section>
+            </CustomScroll>
+          </div>
         </Box>
       </App>
     );
