@@ -10521,16 +10521,21 @@ body {
 
 .duality-box {
   flex-direction: row; }
-  .duality-box .duality-section {
+  .duality-box .scroll-wrap {
     width: 50%;
     margin: 0;
     padding: 50px;
-    min-height: 500px; }
-    .duality-box .duality-section .duality-header {
+    height: 500px; }
+    .duality-box .scroll-wrap .duality-header {
       font-size: 38px; }
-  .duality-box #development {
+  .duality-box .development {
     background: #3F10CC; }
-  .duality-box #design {
+    .duality-box .development .custom-scroll .inner-handle {
+      background-color: #8a86e8; }
+  .duality-box .design {
     background: #0B66C6; }
+
+.filler {
+  height: 600px; }
 .App{text-align:center}.App-logo{-webkit-animation:App-logo-spin infinite 20s linear;animation:App-logo-spin infinite 20s linear;height:80px}.App-header{background-color:#222;height:150px;padding:20px;color:#fff}.App-title{font-size:1.5em}.App-intro{font-size:large}@-webkit-keyframes App-logo-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@keyframes App-logo-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}
-/*# sourceMappingURL=main.50c366e852ddebcd68930c18c5fee2f4.css.map*/
+/*# sourceMappingURL=main.3f3e709bfe5e0c2ba62ba85ecca7a5e6.css.map*/
