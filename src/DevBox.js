@@ -38,14 +38,14 @@ class DevBox extends Component {
                     separator='horizontal'>
                     <img src={code} width="24" class="icon"/>
                     <span className=''>
-                    Node.js, Express, Angular 2+, PHP, Python, Git, MongoDB, DB2
+                    Node.js, Express, Angular 2+, PHP, CodeIgniter, Python, Git, MongoDB, DB2
                     </span>
                 </ListItem>
                 <ListItem className="item-list"
                     separator='horizontal'>
                     <img src={code} width="24" class="icon"/>
                     <span className=''>
-                    C, C++, Java, Scheme, Prolog, Perl, Jenkins
+                    Bash, C, C++, Java, Scheme, Prolog, Perl, Jenkins
                     </span>
                 </ListItem>
                 <br/>
@@ -59,7 +59,13 @@ class DevBox extends Component {
                     separator='horizontal'>
                     <img src={ibm} width="24" class="icon rounded"/>
                     <span className=''>
-                    IBM - Sales Accelleration Tools and Demo Developer
+                    IBM - Sales Acceleration Tools and Demo Developer
+                    <ul>
+                        <li>Manages and develops web applications for sales divisions</li>
+                        <li>Implements MEAN stack when developing new web applications</li>
+                        <li>Maintains tools built using PHP and smaller vanilla web pages</li>
+                        <li>Deploys tools using IBM Cloud and internal Linux servers</li>
+                    </ul>
                     </span>
                 </ListItem>
                 <ListItem className="item-list"
@@ -67,13 +73,28 @@ class DevBox extends Component {
                     <img src={ericsson} width="24" class="icon rounded"/>
                     <span className=''>
                     Ericsson - Tools Developer
+                    <ul>
+                        <li>Created web pages and dashboards using PHP, JS/JQuery, CSS, and HTML</li>
+                        <li>Developed Git monitoring software using Python</li>
+                        <li>Used Jenkins to automate data collection scripts</li>
+                    </ul>
                     </span>
                 </ListItem>
                 <ListItem className="item-list"
                     separator='horizontal'>
                     <img src={carleton} width="20" class="icon carleton"/>
                     <span className=''>
-                    Carleton University<br/>- TA for School of Computer Science <br/>- Web Developer for School for of Journalism
+                    Carleton University
+                    <br/>- TA for School of Computer Science 
+                    <ul>
+                        <li>Taught non-technical students computer science concepts</li>
+                        <li>Marked assignments and exams</li>
+                    </ul>
+                    <br/>- Web Developer for School for of Journalism
+                    <ul>
+                        <li>Updated outdated PHP database connections</li>
+                        <li>Modernized the user interface of internal registration tool</li>
+                    </ul>
                     </span>
                 </ListItem>
                 <br/>
@@ -81,7 +102,7 @@ class DevBox extends Component {
 
 
                 <Title className="list-title">
-                    Vollunteering
+                    Volunteering
                 </Title>
                 <ListItem className="item-list"
                     separator='horizontal'>

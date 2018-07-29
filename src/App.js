@@ -2,21 +2,24 @@ import React, { Component } from 'react';
 import './App.scss';
 import DevBox from './DevBox';
 import DesignBox from './DesignBox';
-import { Parallax, Background } from 'react-parallax';
+import LearningBox from './LearningBox';
+
 
 import App from 'grommet/components/App';
 import Box from 'grommet/components/Box';
 import Header from 'grommet/components/Header';
 import Footer from 'grommet/components/Footer';
-import Meter from 'grommet/components/Meter';
+//import Meter from 'grommet/components/Meter';
 import Title from 'grommet/components/Title';
-import Value from 'grommet/components/Value';
-import Distribution from 'grommet/components/Distribution';
+//import Value from 'grommet/components/Value';
+//import Distribution from 'grommet/components/Distribution';
 import Headline from 'grommet/components/Headline';
 import Section from 'grommet/components/Section';
 
 import Paragraph from 'grommet/components/Paragraph';
-import CustomScroll from 'react-custom-scroll';
+
+//import CustomScroll from 'react-custom-scroll';
+//import { Parallax, Background } from 'react-parallax';
 
 
 class Main extends Component {
@@ -81,6 +84,11 @@ class Main extends Component {
                 <DesignBox/>
             </Section>
           </div>
+        </Box>
+        <Box>
+            <Section>
+                <LearningBox/>
+            </Section>
         </Box>
         <Footer justify='between'
           size='large'
