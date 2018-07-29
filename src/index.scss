@@ -65,7 +65,7 @@ body {
 }
 
 .top-box {
-  padding: 100px 0 100px calc(50vw - 500px);
+  padding: 150px 0 150px 0; //calc(50vw - 500px);
   .page-headline {
     width:1000px;
   }
@@ -78,8 +78,8 @@ body {
 }
 
 .profile-image {
-  width:200px;
-  height:200px;
+  width: 225px;
+  height: 231px;
   border-radius: 50%;
   margin-right: 50px;
 }
