@@ -38,14 +38,14 @@ class DevBox extends Component {
                     separator='horizontal'>
                     <img src={code} width="24" class="icon"/>
                     <span className=''>
-                    Node.js, Express, Angular 2+, PHP, Python, MongoDB, DB2
+                    Node.js, Express, Angular 2+, PHP, Python, Git, MongoDB, DB2
                     </span>
                 </ListItem>
                 <ListItem className="item-list"
                     separator='horizontal'>
                     <img src={code} width="24" class="icon"/>
                     <span className=''>
-                    C, C++, Java, Scheme, Prolog, Perl
+                    C, C++, Java, Scheme, Prolog, Perl, Jenkins
                     </span>
                 </ListItem>
                 <br/>
