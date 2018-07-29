@@ -1,4 +1,4 @@
-@font-face {
+@import url(https://use.typekit.net/dgf4kid.css);@font-face {
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 300;
@@ -10492,24 +10492,24 @@ section:not(.grommetux-section) {
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
   background: black; }
 
 .grommet {
   background: black !important;
-  color: white !important; }
+  color: #dadada !important; }
 
 .site-header {
   background: black;
-  color: white; }
+  background: #0c0d15;
+  color: #dadada; }
 
 .top-box {
-  padding: 150px 0 150px 0; }
+  padding: 100px 0 100px 0; }
   .top-box .page-headline {
     width: 1000px; }
   .top-box .p {
-    width: 1000px;
-    max-width: 1000px;
+    width: 100%;
+    max-width: 68%;
     font-size: 18px;
     color: #908f8f; }
 
@@ -10520,14 +10520,20 @@ body {
   margin-right: 50px; }
 
 .duality-box {
-  flex-direction: row; }
+  flex-direction: row;
+  flex-wrap: wrap; }
   .duality-box .scroll-wrap {
     width: 50%;
     margin: 0;
     padding: 50px;
-    height: 500px; }
+    min-height: 500px;
+    min-width: 500px; }
     .duality-box .scroll-wrap .duality-header {
-      font-size: 38px; }
+      font-size: 38px;
+      margin-bottom: 60px; }
+  @media screen and (max-width: 1115px) {
+    .duality-box .scroll-wrap {
+      width: 100%; } }
   .duality-box .development {
     background: #3F10CC; }
     .duality-box .development .custom-scroll .inner-handle {
@@ -10537,6 +10543,31 @@ body {
 
 .filler {
   height: 600px; }
+
+.footer {
+  justify-content: center; }
+
+.grommet dd, .grommet li:not([class^="grommetux-"]) {
+  max-width: 576px;
+  margin-left: 0px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.375;
+  color: #f3f3f3; }
+
+.section-list .list-title {
+  padding: 18px 24px;
+  width: 100%;
+  background: #00000014; }
+
+.section-list .icon {
+  margin-right: 15px; }
+
+.section-list .carleton {
+  margin-right: 19px; }
+
+.section-list .rounded {
+  border-radius: 50%; }
 .App {
   text-align: center; }
 
@@ -10568,8 +10599,7 @@ body {
   width: 1000px;
   margin: auto;
   line-height: 1.5;
-  margin-bottom: 0px;
-  margin-left: calc(50vw - 600px); }
+  margin-bottom: 0px; }
 
 .page-headline {
   display: flex;
@@ -10578,38 +10608,40 @@ body {
   .page-headline span {
     font-size: 3rem; }
 
+.page-name {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
 .fade-in {
   margin-bottom: 5px;
-  font-size: 2rem;
-  font-weight: 500;
-  font-weight: bold; }
-  .fade-in .fade-in-1 {
-    animation: 1s ease 0s normal forwards 1 fadein; }
+  font-size: 3rem;
+  font-weight: 500; }
   .fade-in .fade-in-2 {
     opacity: 0;
-    animation: 1s ease 0.3s normal forwards 1 fadein; }
+    animation: 0.5s ease 0s normal forwards 1 fadein; }
   .fade-in .fade-in-3 {
     opacity: 0;
-    animation: 1s ease 0.6s normal forwards 1 fadein; }
+    animation: 0.5s ease 0.2s normal forwards 1 fadein; }
   .fade-in .fade-in-4 {
     opacity: 0;
-    animation: 1s ease 0.9s normal forwards 1 fadein; }
+    animation: 0.5s ease 0.4s normal forwards 1 fadein; }
   .fade-in .fade-in-5 {
     opacity: 0;
-    animation: 1s ease 1.2s normal forwards 1 fadein; }
+    animation: 0.5s ease 0.6s normal forwards 1 fadein; }
   .fade-in .fade-in-6 {
     opacity: 0;
-    animation: 1s ease 1.5s normal forwards 1 fadein; }
+    animation: 0.5s ease 0.8s normal forwards 1 fadein; }
   .fade-in .fade-in-7 {
     opacity: 0;
-    animation: 1s ease 1.8s normal forwards 1 fadein; }
+    animation: 0.5s ease 1.2s normal forwards 1 fadein; }
   .fade-in .fade-in-8 {
     opacity: 0;
-    animation: 1s ease 2.1s normal forwards 1 fadein; }
+    animation: 0.5s ease 1.4s normal forwards 1 fadein; }
 
 .fade-after {
   opacity: 0;
-  animation: 2.1s ease 2s normal forwards 1 fadein; }
+  animation: 1.1s ease 1.4s normal forwards 1 fadein; }
 
 @keyframes fadein {
   0% {
@@ -10619,7 +10651,41 @@ body {
   100% {
     opacity: 1; } }
 
+@media screen and (max-width: 1115px) {
+  .top-box {
+    width: 100%;
+    padding: 10%; }
+    .top-box img {
+      display: none; }
+    .top-box .p {
+      width: 56% !important; } }
+
+@media screen and (max-width: 630px) {
+  .page-headline span {
+    font-size: 1.5rem; }
+  .fade-in {
+    font-size: 2rem; }
+  .p {
+    width: 30% !important;
+    max-width: 30% !important; } }
+
 .less-margin {
   margin-top: 5px; }
 
-/*# sourceMappingURL=main.420e6704383db47cf125fa6e9f1a4a53.css.map*/
+.spacer {
+  background: #5331d8;
+  height: 100px;
+  background-attachment: fixed; }
+div, ul, li {
+  color: #dadada; }
+
+.tk-montserrat span {
+  font-family: "montserrat",sans-serif; }
+.behance {
+  width: 100%;
+  border: none;
+  background: #ffffff;
+  min-height: 600px;
+  padding: 15px 0px 15px 15px; }
+
+/*# sourceMappingURL=main.9e1694ae0d751298676ba9d2f9d1a2bd.css.map*/
