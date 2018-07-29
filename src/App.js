@@ -3,7 +3,7 @@ import './App.scss';
 import DevBox from './DevBox';
 import DesignBox from './DesignBox';
 import LearningBox from './LearningBox';
-
+import SocialLinks from './SocialLinks';
 
 import App from 'grommet/components/App';
 import Box from 'grommet/components/Box';
@@ -93,7 +93,8 @@ class Main extends Component {
         <Footer justify='between'
           size='large'
           className="footer">
-          <Title>
+          <SocialLinks/>
+          <Title className="no-margin-title">
             <img src="./assets/logo.png" width="24" height="24"/>
             brittny.tech
           </Title>

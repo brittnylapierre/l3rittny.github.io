@@ -130,6 +130,7 @@ body {
 
 .footer {
   justify-content: center;
+  padding-bottom:60px;
 }
 
 .grommet dd, .grommet li:not([class^="grommetux-"]) {
@@ -160,4 +161,19 @@ body {
   .rounded {
     border-radius: 50%;
   }
+}
+
+.grommetux-box {
+  flex-wrap: wrap;
+}
+
+.grommet a:not(.grommetux-anchor):not(.grommetux-button):visited {
+  color: #5400f3;
+}
+.grommet a:not(.grommetux-anchor):not(.grommetux-button) {
+  color: #4a00d6;
+}
+
+.grommet a:not(.grommetux-anchor):not(.grommetux-button):hover {
+  color: #5e0bf8;
 }
