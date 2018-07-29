@@ -10492,7 +10492,8 @@ section:not(.grommetux-section) {
 body {
   margin: 0;
   padding: 0;
-  background: black; }
+  background: black;
+  font-size: 18px; }
 
 .grommet {
   background: black !important;
@@ -10541,12 +10542,17 @@ body {
       background-color: #8a86e8; }
   .duality-box .design {
     background: #0B66C6; }
+  .duality-box .duality-section {
+    width: 100%;
+    margin: auto;
+    max-width: 1100px; }
 
 .filler {
   height: 600px; }
 
 .footer {
-  justify-content: center; }
+  justify-content: center;
+  padding-bottom: 60px; }
 
 .grommet dd, .grommet li:not([class^="grommetux-"]) {
   max-width: 576px;
@@ -10555,6 +10561,9 @@ body {
   font-weight: 300;
   line-height: 1.375;
   color: #f3f3f3; }
+
+.section-list .item-list {
+  align-items: flex-start; }
 
 .section-list .list-title {
   padding: 18px 24px;
@@ -10569,6 +10578,18 @@ body {
 
 .section-list .rounded {
   border-radius: 50%; }
+
+.grommetux-box {
+  flex-wrap: wrap; }
+
+.grommet a:not(.grommetux-anchor):not(.grommetux-button):visited {
+  color: #5400f3; }
+
+.grommet a:not(.grommetux-anchor):not(.grommetux-button) {
+  color: #4a00d6; }
+
+.grommet a:not(.grommetux-anchor):not(.grommetux-button):hover {
+  color: #5e0bf8; }
 .App {
   text-align: center; }
 
@@ -10679,10 +10700,13 @@ body {
   height: 150px;
   background-attachment: fixed;
   background-size: 100% auto; }
+
+.no-margin-title {
+  margin-right: 0px; }
 div, ul, li {
   color: #dadada; }
 
-.tk-montserrat span {
+.tk-montserrat span, .tk-montserrat li {
   font-family: "montserrat",sans-serif; }
 .behance {
   width: 100%;
@@ -10690,5 +10714,38 @@ div, ul, li {
   background: #ffffff;
   min-height: 600px;
   padding: 15px 0px 15px 15px; }
+.header {
+  font-size: 3rem;
+  position: relative;
+  width: 866px;
+  margin: auto;
+  max-width: 1100px;
+  margin-top: 70px; }
 
-/*# sourceMappingURL=main.916f9c2c2636facf42394f97eedcc654.css.map*/
+.center {
+  position: relative;
+  width: 866px;
+  margin: auto;
+  max-width: 1100px;
+  margin-top: 50px; }
+
+.learning-list {
+  padding-bottom: 70px; }
+  .learning-list li {
+    font-family: "baltica",serif;
+    max-width: 866px !important;
+    color: #888787 !important;
+    font-size: 18px !important; }
+.icons {
+  flex: 0 0 100%;
+  display: block;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 44px;
+  opacity: 0.9; }
+  .icons i {
+    margin-right: 20px; }
+  .icons .last-icon {
+    margin-right: 0; }
+
+/*# sourceMappingURL=main.e484ef80bef9513c4bf1c18bbd92a7b5.css.map*/
