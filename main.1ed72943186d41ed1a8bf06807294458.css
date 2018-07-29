@@ -10674,6 +10674,7 @@ body {
 
 .spacer {
   background: #5331d8;
+  background: url("/assets/paint.jpg");
   height: 100px;
   background-attachment: fixed; }
 div, ul, li {
@@ -10688,4 +10689,4 @@ div, ul, li {
   min-height: 600px;
   padding: 15px 0px 15px 15px; }
 
-/*# sourceMappingURL=main.9e1694ae0d751298676ba9d2f9d1a2bd.css.map*/
+/*# sourceMappingURL=main.1ed72943186d41ed1a8bf06807294458.css.map*/
