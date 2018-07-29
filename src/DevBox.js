@@ -73,7 +73,7 @@ class DevBox extends Component {
                     separator='horizontal'>
                     <img src={carleton} width="20" class="icon carleton"/>
                     <span className=''>
-                    Carleton University - <br/>TA School for of Computer Science <br/>Web Developer School for of Journalism
+                    Carleton University<br/>- TA for School of Computer Science <br/>- Web Developer for School for of Journalism
                     </span>
                 </ListItem>
                 <br/>
