@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.scss';
+import DevBox from './DevBox';
+import DesignBox from './DesignBox';
 import { Parallax, Background } from 'react-parallax';
 
 import App from 'grommet/components/App';
@@ -17,9 +18,6 @@ import Section from 'grommet/components/Section';
 import Paragraph from 'grommet/components/Paragraph';
 import CustomScroll from 'react-custom-scroll';
 
-const insideStyles = {background: 'white', padding: 20, position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%,-50%)'};
-const image1 = require('./img/retro-furnish.png');
-const image2 = require('./img/paint.jpg');
 
 class Main extends Component {
   render() {
@@ -27,20 +25,13 @@ class Main extends Component {
       <App centered={false}>
         <Header direction="row" justify="between" size="medium"
           pad={{ horizontal: 'medium' }} className="site-header">
-          <Title>
+          <Title className="tk-montserrat">
             <img src="./assets/logo.png" width="24" height="24"/>
             brittny.tech
-            </Title>
-        </Header>
-        <Parallax bgImage={image2}
-          strength={500}>
-          <div style={{height: 150}}>
-          </div>
-        </Parallax>
-        <div className="top-box">
-          <img src="./assets/brittny.jpg" class="profile-image"/>
-          <span>
-            <div className="fade-in">
+          </Title>
+        </Header>  
+        <div className="page-name">
+          <div className="fade-in tk-montserrat">
               <span className="fade-in-2">B</span>
               <span className="fade-in-1">R</span>
               <span className="fade-in-7">I</span>
@@ -57,7 +48,14 @@ class Main extends Component {
               <span className="fade-in-5">R</span>
               <span className="fade-in-2">R</span>
               <span className="fade-in-8">E</span>
-            </div>
+          </div>
+        </div>
+        <Section className="spacer">
+          
+        </Section>
+        <div className="top-box ">
+          <img src="./assets/brittny.jpg" class="profile-image fade-after"/>
+          <span>
             <span>
               <Headline className="page-headline fade-after">
                 <span>
@@ -74,26 +72,24 @@ class Main extends Component {
         </div>
         <Box className="duality-box">
           <div className="scroll-wrap development">
-            <CustomScroll heightRelativeToParent="100%">
-              <Section className="duality-section development">
-                  <Headline className="duality-header">
-                    Development
-                  </Headline>
-                  <div className="filler"></div>
-              </Section>
-            </CustomScroll>
+            <Section className="duality-section development">
+                <DevBox/>
+            </Section>
           </div>
           <div className="scroll-wrap design">
-            <CustomScroll heightRelativeToParent="100%">
-              <Section className="duality-section design">
-                  <Headline className="duality-header">
-                    Design + Art
-                  </Headline>
-                  <div className="filler"></div>
-              </Section>
-            </CustomScroll>
+            <Section className="duality-section design">
+                <DesignBox/>
+            </Section>
           </div>
         </Box>
+        <Footer justify='between'
+          size='large'
+          className="footer">
+          <Title>
+            <img src="./assets/logo.png" width="24" height="24"/>
+            brittny.tech
+          </Title>
+        </Footer>
       </App>
     );
   }
@@ -101,4 +97,9 @@ class Main extends Component {
 
 export default Main;
 
-//
+/*
+<CustomScroll heightRelativeToParent="100%">
+        <Section className="duality-section design">
+        </Section>
+      </CustomScroll>
+*/

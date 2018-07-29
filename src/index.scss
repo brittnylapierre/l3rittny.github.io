@@ -1,3 +1,4 @@
+@import url("https://use.typekit.net/dgf4kid.css");
 
 $grey : rgb(22, 22, 22);
 $primary : #BD80FF;
@@ -49,29 +50,30 @@ $rgba-secondary-2-4: rgba(  2, 46, 91,1);
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
   background: black;
 }
 
 .grommet { 
   background: black !important;
-  color: white !important;
+  color: #dadada !important;
 }
 
 
 .site-header {
   background: black;
-  color:white;
+
+  background: #0c0d15;
+  color: #dadada;
 }
 
 .top-box {
-  padding: 150px 0 150px 0; //calc(50vw - 500px);
+  padding: 100px 0 100px 0; //calc(50vw - 500px);
   .page-headline {
     width:1000px;
   }
   .p {
-    width:1000px;
-    max-width:1000px;    
+    width:100%;   
+    max-width: 68%;
     font-size: 18px;
     color: #908f8f;
   }
@@ -86,15 +88,25 @@ body {
 
 .duality-box {
   flex-direction: row;
+  flex-wrap:wrap;
   .scroll-wrap {
     width:50%;
     margin:0;
     padding:50px;
-    height:500px;
+    min-height: 500px;
+    min-width:500px;
     .duality-header {    
       font-size: 38px;
+      margin-bottom: 60px;
     }
   }
+
+  @media screen and (max-width:1115px){
+    .scroll-wrap {
+      width:100%;
+    }
+  }
+
   .development {
     background: $color-primary-2;
     .custom-scroll .inner-handle {
@@ -105,7 +117,37 @@ body {
     background: $color-secondary-2-2;
   }
 }
-
 .filler {
   height : 600px;
+}
+
+.footer {
+  justify-content: center;
+}
+
+.grommet dd, .grommet li:not([class^="grommetux-"]) {
+  max-width: 576px;
+  margin-left: 0px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.375;
+  color: #f3f3f3;
+}
+
+.section-list {
+  .list-title {
+    padding: 18px 24px;
+    width: 100%;
+    background: #00000014;
+  }
+  .icon {
+    margin-right: 15px;
+    //width:24px;
+  }
+  .carleton {
+    margin-right: 19px;
+  }
+  .rounded {
+    border-radius: 50%;
+  }
 }
