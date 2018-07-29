@@ -12,7 +12,7 @@ class SocialLinks extends Component {
             <a href= "https://github.com/l3rittny" target="_blank">
                 <i className="fab fa-github-square"></i>
             </a>
-            <a href= "www.linkedin.com/in/brittny-lapierre" target="_blank">
+            <a href= "https://www.linkedin.com/in/brittny-lapierre" target="_blank">
                 <i className="fab fa-linkedin last-icon"></i>
             </a>
         </div>

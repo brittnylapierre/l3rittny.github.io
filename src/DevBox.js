@@ -93,7 +93,7 @@ class DevBox extends Component {
                     <br/>- Web Developer for School for of Journalism
                     <ul>
                         <li>Updated outdated PHP database connections</li>
-                        <li>Modernized the user interface of internal registration tool</li>
+                        <li>Modernized the user interface of an internal registration tool</li>
                     </ul>
                     </span>
                 </ListItem>
