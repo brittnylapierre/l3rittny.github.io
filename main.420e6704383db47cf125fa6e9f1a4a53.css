@@ -10504,7 +10504,7 @@ body {
   color: white; }
 
 .top-box {
-  padding: 100px 0 100px calc(50vw - 500px); }
+  padding: 150px 0 150px 0; }
   .top-box .page-headline {
     width: 1000px; }
   .top-box .p {
@@ -10514,8 +10514,8 @@ body {
     color: #908f8f; }
 
 .profile-image {
-  width: 200px;
-  height: 200px;
+  width: 225px;
+  height: 231px;
   border-radius: 50%;
   margin-right: 50px; }
 
@@ -10537,5 +10537,89 @@ body {
 
 .filler {
   height: 600px; }
-.App{text-align:center}.App-logo{-webkit-animation:App-logo-spin infinite 20s linear;animation:App-logo-spin infinite 20s linear;height:80px}.App-header{background-color:#222;height:150px;padding:20px;color:#fff}.App-title{font-size:1.5em}.App-intro{font-size:large}@-webkit-keyframes App-logo-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@keyframes App-logo-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}
-/*# sourceMappingURL=main.3f3e709bfe5e0c2ba62ba85ecca7a5e6.css.map*/
+.App {
+  text-align: center; }
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px; }
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white; }
+
+.App-title {
+  font-size: 1.5em; }
+
+.App-intro {
+  font-size: large; }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+.top-box {
+  display: flex;
+  position: relative;
+  width: 1000px;
+  margin: auto;
+  line-height: 1.5;
+  margin-bottom: 0px;
+  margin-left: calc(50vw - 600px); }
+
+.page-headline {
+  display: flex;
+  line-height: 1.5;
+  margin-bottom: 0px; }
+  .page-headline span {
+    font-size: 3rem; }
+
+.fade-in {
+  margin-bottom: 5px;
+  font-size: 2rem;
+  font-weight: 500;
+  font-weight: bold; }
+  .fade-in .fade-in-1 {
+    animation: 1s ease 0s normal forwards 1 fadein; }
+  .fade-in .fade-in-2 {
+    opacity: 0;
+    animation: 1s ease 0.3s normal forwards 1 fadein; }
+  .fade-in .fade-in-3 {
+    opacity: 0;
+    animation: 1s ease 0.6s normal forwards 1 fadein; }
+  .fade-in .fade-in-4 {
+    opacity: 0;
+    animation: 1s ease 0.9s normal forwards 1 fadein; }
+  .fade-in .fade-in-5 {
+    opacity: 0;
+    animation: 1s ease 1.2s normal forwards 1 fadein; }
+  .fade-in .fade-in-6 {
+    opacity: 0;
+    animation: 1s ease 1.5s normal forwards 1 fadein; }
+  .fade-in .fade-in-7 {
+    opacity: 0;
+    animation: 1s ease 1.8s normal forwards 1 fadein; }
+  .fade-in .fade-in-8 {
+    opacity: 0;
+    animation: 1s ease 2.1s normal forwards 1 fadein; }
+
+.fade-after {
+  opacity: 0;
+  animation: 2.1s ease 2s normal forwards 1 fadein; }
+
+@keyframes fadein {
+  0% {
+    opacity: 0; }
+  66% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.less-margin {
+  margin-top: 5px; }
+
+/*# sourceMappingURL=main.420e6704383db47cf125fa6e9f1a4a53.css.map*/
