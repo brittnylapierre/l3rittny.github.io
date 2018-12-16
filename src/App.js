@@ -34,24 +34,27 @@ class Main extends Component {
           </Title>
         </Header>  
         <div className="page-name">
-          <div className="fade-in tk-montserrat">
-              <span className="fade-in-2">B</span>
-              <span className="fade-in-1">R</span>
-              <span className="fade-in-7">I</span>
-              <span className="fade-in-5">T</span>
-              <span className="fade-in-4">T</span>
-              <span className="fade-in-6">N</span>
-              <span className="fade-in-3">Y</span>
-              &nbsp;
-              <span className="fade-in-1">L</span>
-              <span className="fade-in-7">A</span>
-              <span className="fade-in-4">P</span>
-              <span className="fade-in-3">I</span>
-              <span className="fade-in-6">E</span>
-              <span className="fade-in-5">R</span>
-              <span className="fade-in-2">R</span>
-              <span className="fade-in-8">E</span>
-          </div>
+          <a target="_blank" href="https://drive.google.com/file/d/1GlPqqXXprPb0oPs7s0yaZ0ONyEKc3wYj/view?usp=sharing">
+            <div className="fade-in tk-montserrat">
+                <span className="fade-in-2">B</span>
+                <span className="fade-in-1">R</span>
+                <span className="fade-in-7">I</span>
+                <span className="fade-in-5">T</span>
+                <span className="fade-in-4">T</span>
+                <span className="fade-in-6">N</span>
+                <span className="fade-in-3">Y</span>
+                &nbsp;
+                <span className="fade-in-1">L</span>
+                <span className="fade-in-7">A</span>
+                <span className="fade-in-4">P</span>
+                <span className="fade-in-3">I</span>
+                <span className="fade-in-6">E</span>
+                <span className="fade-in-5">R</span>
+                <span className="fade-in-2">R</span>
+                <span className="fade-in-8">E</span>
+            </div>
+          </a>
+          
         </div>
         <Section className="spacer">
           

@@ -219,15 +219,11 @@ module.exports = {
           },
           {  
             test: /(\.scss|.*\.scss)$/,
-            use: extractSass.extract({
-                use: [{
-                    loader: require.resolve("css-loader")
-                }, {
-                    loader: require.resolve('sass-loader')
-                }],
-                // use style-loader in development 
-                fallback: require.resolve("style-loader")
-            })
+            
+              loader : 'style-loader!css-loader!sass-loader?outputStyle=expanded&' +
+              'includePaths[]=' +
+              (encodeURIComponent(path.resolve('./node_modules')))
+            
           },
           // "file" loader makes sure assets end up in the `build` folder.
           // When you `import` an asset, you get its filename.

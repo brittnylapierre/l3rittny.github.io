@@ -12,10 +12,11 @@ class LearningBox extends Component {
         <div class="center">
             <h3>What have I been learning lately?</h3>
             <ul className="learning-list">
+                <li>I've been using out Golang + Vue.js lately for my web apps. Lots of my apps have been built using Node.js/Angular 2+ and I've heard Go is crazy fast so I'm giving it a go. ;) ;)</li>
                 <li>I'm learning React.js through this website (which is deployed on Github Pages) and through maintaining a web app initially developed by a coworker at work.</li>
-                <li>I'm studying The Brain and Technology: Brain Science in Interface Design from The Interaction Design Foundation.</li>
-                <li>This summer I am also taking elective courses in introductory cognitive science and introductory psychology to better my ability to design human-centric web applications.</li>
-                <li>As always, I'm trying to improve my artistic abilities. I especially want to be able to draw realistic water.</li>
+                <li>I've added a minor in psycology to my degree so that I can have a better understanding of the needs of people in general.</li>
+                <li>This winter I'll be taking a course on computer graphics with OpenGL - I'm super excited to try a new creative application of programming.</li>
+                <li>As always, I'm trying to improve my artistic abilities. I'm hoping to publish a web comic someday soon.</li>
                 <li>I am studying German, and can speak it at an elementary level.</li>
             </ul>
         </div>

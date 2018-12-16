@@ -48,12 +48,13 @@
 
 .page-name {
   text-align: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 30vh;
+  margin-bottom: 30vh;
 }
+
 .fade-in {
   margin-bottom: 5px;
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: 500;
   .fade-in-1 {
   }
@@ -137,7 +138,8 @@
 .spacer {
   background: #5331d8;
   background: url('/assets/pat2.jpg');
-  height: 150px;
+  //height: 150px;
+  height: 350px;
   background-attachment: fixed;
   background-size: 100% auto;
 }
